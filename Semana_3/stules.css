@@ -1,73 +1,73 @@
- body {
+body {
     font-family: Arial, sans-serif;
-    background-color: #eef2f3;
+    background-color: #13abd1;
     margin: 0;
     padding: 0;
- }
+}
 
- header {
+header {
     background-color: #3c4d61;
-    color: white;
+    color: rgb(152, 175, 66);
     padding: 20px;
     text-align: center;
- }
+}
 
- nav ul {
+nav ul {
     list-style: none;
     padding: 0;
- }
+}
 
- nav ul li {
+nav ul li {
     display: inline-block;
     margin: 0 12px;
- } 
+}
 
- nav a {
-    color: white;
+nav a {
+    color: rgb(163, 103, 103);
     text-decoration: none;
     font-weight: bold;
- }
+}
 
- h1, h2, h3 {
+h1, h2, h3 {
     color: #222;
- }
+}
 
- p {
+p {
     color: #444;
- }
+}
 
- table {
+table {
     width: 70%;
     margin: 20px auto;
     border-collapse: collapse;
- }
+}
 
- table, th, td {
+table, th, td {
     border: 2px solid #0dfd85;
- }
+}
 
- th, td {
+th, td {
     padding: 10px;
     text-align: center;
- }
+}
 
- form {
+form {
     width: 320px;
     margin: 20px auto;
     padding: 15px;
     border: 2px solid #7d4285;
     background-color: rgb(201, 139, 159);
- }
+}
 
- form input, button {
+form input, button {
     width: 100%;
     padding: 8px;
     margin-top: 10px;
- }
+}
 
- button {
+button {
     background-color: #2b2c86;
-    color: white;
+    color: rgb(102, 40, 64);
     border: none;
     cursor: pointer;
- } 
+}
