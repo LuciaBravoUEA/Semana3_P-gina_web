@@ -1,0 +1,76 @@
+/* Estilos personalizados */
+/* BOTONES */
+.btn-primary {
+background-color: var(--rosa-principal);
+border: none;
+transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+.btn-primary:hover {
+background-color: var(--rosa-oscuro);
+transform: scale(1.05);
+}
+
+
+/* CATÁLOGO */
+#catalogo {
+background-color: rgb(241, 194, 250);
+padding: 3rem 1rem;
+border-radius: 20px;
+}
+
+
+.card {
+border-radius: 20px;
+overflow: hidden;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card:hover {
+transform: translateY(-8px);
+box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+
+.card-title {
+color: var(--rosa-oscuro);
+font-weight: bold;
+}
+
+
+/* FORMULARIO */
+#contacto {
+background-color: rgb(223, 171, 203);
+padding: 3rem 1rem;
+border-radius: 20px;
+}
+
+
+/* FOOTER */
+footer {
+background-color: var(--rosa-principal) !important;
+color: rgb(212, 177, 102);
+}
+
+
+footer a {
+color: rgb(122, 23, 89);
+text-decoration: none;
+}
+
+
+/* ANIMACIÓN */
+@keyframes aparecer {
+from { opacity: 0; transform: translateY(-20px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* MEDIA QUERY */
+@media (max-width: 576px) {
+.titulo-principal {
+font-size: 2.2rem;
+}
+}
